@@ -2,11 +2,5 @@
   "build":{
     "src": "api/index.py",
     "use": "@vercel/python"
-  },
-  "route":[
-    {
-      "source": "/(.*)",
-      "dest": "api/index.py"
-    }
-  ]
+  }
 }
